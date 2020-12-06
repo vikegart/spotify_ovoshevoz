@@ -6,7 +6,7 @@ This will allow users to sign in with Spotify's Implicit Authentication Flow, se
 **Important Note:** This only works for **Spotify Premium** users. (See: [Spotify Web Docs](https://developer.spotify.com/documentation/web-api/guides/using-connect-web-api/))
 
 ### Visit SpotiFly on GitHub Pages
-- [Click here](https://benjaminhunt.github.io/benjaminhunt.github.io-SpotiFly/main.html) to visit and play.
+- [Click here](https://vikegart.github.io/spotify_ovoshevoz/index.html) to visit and play.
 
 ### Start Player Locally
 1. clone this repository
