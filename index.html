@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>SpotiFly Web Playback</title>
   <link rel="stylesheet" type="text/css" href="play.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://sdk.scdn.co/spotify-player.js"></script>
-  <script src="play.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="play.js"></script>
 </head>
+
 <body>
   <h1 id="header1"></h1>
   <h1>SpotiFly Song Guessing Game!</h1>
@@ -32,24 +36,25 @@
     <table style="text-align: center">
       <tr>
         <th align="right" class="guess_label">Song</th>
-        <th align="left"><input type="text" id="song_guess" class="guess"
-                                name="song title" onkeydown="return guess_song(event)"></th>
+        <th align="left"><input type="text" id="song_guess" class="guess" name="song title"
+            onkeydown="return guess_song(event)"></th>
         <th id="song_state"></th>
       </tr>
       <tr>
         <th align="right" class="guess_label">Artist</th>
-        <th align="left"><input type="text" id="artist_guess" class="guess"
-                                name="artist's name" onkeydown="return guess_artist(event)"></th>
+        <th align="left"><input type="text" id="artist_guess" class="guess" name="artist's name"
+            onkeydown="return guess_artist(event)"></th>
         <th id="artist_state"></th>
       </tr>
       <tr>
         <th align="right" class="guess_label">Album</th>
-        <th align="left"><input type="text" id="album_guess" class="guess"
-                                name="album name" onkeydown="return guess_album(event)"></th>
+        <th align="left"><input type="text" id="album_guess" class="guess" name="album name"
+            onkeydown="return guess_album(event)"></th>
         <th id="album_state"></th>
       </tr>
     </table>
     <br><br>
   </div>
 </body>
+
 </html>
