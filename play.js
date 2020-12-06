@@ -1,3 +1,15 @@
+const isLocalhost = window.location.host == 'localhost';
+
+// const DEV_MODE = true;
+
+const localUri = 'http://localhost:8080/index.html';
+const productionUri = 'https://vikegart.github.io/spotify_ovoshevoz/index.html';
+
+const clientId = '7ba7afd32f834ecfb4ec745445a309dc';
+
+
+const redirectUri = isLocalhost ? localUri : productionUri;
+
 function Timer(callback, delay){
     let timerId, start, remaining = delay;
 
@@ -284,9 +296,6 @@ auth = () => {
   const authEndpoint = 'https://accounts.spotify.com/authorize';
 
   // Replace with your app's client ID, redirect URI and desired scopes
-  const clientId = 'd5e546a8a593407b92e7ff95044e576e';
-  //const redirectUri = 'http://localhost:8000/main.html';
-  const redirectUri = 'https://benjaminhunt.github.io/benjaminhunt.github.io-SpotiFly/main.html';
 
   const permission_scopes = [
       "streaming",
